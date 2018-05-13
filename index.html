@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My First Calculator App</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" rel="javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="name">
+            <h1>Calculator</h1>
+        </div>
+        <textarea type="text" class="showing-display display"></textarea>
+
+        <!-- Display of the calculator-->
+
+        <div id="space"></div>
+        <div id="number-pad">
+            <form>
+                <!-- here lies the number element of the calculator -->
+                <input type="button" onclick="eraseAll()" class="symbol" id="clear" value="C">
+                <input type="button" onclick="turnOnOff()" class="symbol" id="status" value="On">
+                <br>
+                <input type="button" onclick="num7()" class="number" id="btn7" value="7">
+                <input type="button" onclick="num8()" class="number" id="btn8" value="8">
+                <input type="button" onclick="num9()" class="number" id="btn9" value="9">
+                <input type="button" onclick="sub()" class="symbol" id="subtract" value="-">
+                <br>
+                <input type="button" onclick="num4()" class="number" id="btn4" value="4">
+                <input type="button" onclick="num5()" class="number" id="btn5" value="5">
+                <input type="button" onclick="num6()" class="number" id="btn6" value="6">
+                <input type="button" onclick="plus()" class="symbol" id="add" value="+">
+                <br>
+                <input type="button" onclick="num1()" id="btn1" class="number" value="1">
+                <input type="button" onclick="num2()" class="number" id="btn2" value="2">
+                <input type="button" onclick="num3()" class="number" id="btn3" value="3">
+                <input type="button" onclick="div()" class="symbol" id="divide" value="/">
+                <br>
+                <input type="button" onclick="num0()" class="number" id="btn0" value="0">
+                <input type="button" onclick="period()" class="number" id="btn-dot" value=".">
+                <input type="button" onclick="calculate()" class="number" id="btn-equal" value="=">
+                <input type="button" onclick="mul()" class="symbol" id="multiply" value="*">
+
+            </form>
+        </div>
+        <!--
+        <script>
+            function num1() {
+                $('.showing-display').append('hello');
+            }
+        </script>
+    -->
+    </div>
+</body>
+
+</html>

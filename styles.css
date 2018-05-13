@@ -1,0 +1,67 @@
+#calculator {
+    background: rgb(255, 255, 255);
+    margin: auto;
+    width: 270px;
+    height: auto;
+    border: 10px solid rgb(124, 124, 124);
+}
+
+#name {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#number-pad {
+    margin: auto;
+}
+
+.number,
+.symbol {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: normal;
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+    background: rgb(255, 255, 255);
+}
+
+.display {
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 95%;
+    height: 40px;
+    background: black;
+    margin: auto;
+    font-size: 25px;
+    color: black;
+}
+
+.off-state {
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 95%;
+    height: 40px;
+    background: rgba(211, 211, 211, 0.49);
+    margin: auto;
+    font-size: 25px;
+    color: green;
+}
+
+#space {
+    height: 30px;
+}
+
+#add,
+#subtract,
+#divide,
+#multiply,
+#clear {
+    background: rgb(255, 184, 92);
+}
+
+textarea {
+    resize: none;
+}
