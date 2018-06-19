@@ -6,9 +6,11 @@ function turnOnOff() {
     if (onOff === false) {
         onOff = true;
         $('.showing-display').toggleClass('off-state');
+        $('.led').addClass('light');
     } else {
         onOff = false;
         $('.showing-display').removeClass('off-state');
+        $('.led').removeClass('light');
     }
 }
 
