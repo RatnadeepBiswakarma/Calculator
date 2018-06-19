@@ -21,9 +21,16 @@ function turnOnOff() {
 function calculate() {
     if (onOff === true) {
         let input = $('.showing-display').val();
-        $('.showing-display').empty();
-        $('.showing-display').append(eval(input).toFixed(4));
-        calculation = true;
+        let result = eval(input);
+        if (result % 1 === 0) {
+            $('.showing-display').empty();
+            $('.showing-display').append(result);
+            calculation = true;
+        } else {
+            $('.showing-display').empty();
+            $('.showing-display').append(result.toFixed(4));
+            calculation = true;
+        }
     }
 }
 
