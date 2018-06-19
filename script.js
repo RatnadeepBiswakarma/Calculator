@@ -18,7 +18,7 @@ function calculate() {
     if (onOff === true) {
         let input = $('.showing-display').val();
         $('.showing-display').empty();
-        $('.showing-display').append(eval(input));
+        $('.showing-display').append(eval(input).toFixed(4));
         calculation = true;
     }
 }
