@@ -152,7 +152,7 @@ function mul() {
 
 function div() {
     if (calculation === true) {
-        calculation === false;
+        calculation = false;
         $('.showing-display').append('/');
     } else {
         $('.showing-display').append('/');
