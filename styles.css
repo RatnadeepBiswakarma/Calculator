@@ -95,7 +95,11 @@ textarea {
     border: 1px solid rgb(50, 66, 55);
     background-color: rgb(74, 255, 74);
     box-shadow: 3px 3px 18px rgb(110, 255, 110);
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
-    transition-delay: initial;
+}
+.red {
+    color: white;
+    border: 1px solid rgb(255, 93, 93);
+    border-radius: 50%;
+    background-color: rgb(255, 94, 94);
+    
 }

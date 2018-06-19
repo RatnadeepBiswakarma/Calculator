@@ -7,10 +7,14 @@ function turnOnOff() {
         onOff = true;
         $('.showing-display').toggleClass('off-state');
         $('.led').addClass('light');
+        $('#status').attr("value", "Off");
+        $('#status').addClass("red");
     } else {
         onOff = false;
         $('.showing-display').removeClass('off-state');
         $('.led').removeClass('light');
+        $('#status').attr("value", "On");
+        $('#status').removeClass("red");
     }
 }
 
