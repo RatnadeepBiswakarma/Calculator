@@ -1,3 +1,7 @@
+body {
+    padding-top: 50px;
+}
+
 #calculator {
     background: rgb(255, 255, 255);
     margin: auto;
@@ -31,9 +35,12 @@
     box-shadow: 5px 5px 10px rgb(204, 204, 204);
     cursor: pointer;
 }
-.number:active, .symbol:active {
+
+.number:active,
+.symbol:active {
     box-shadow: 2px 2px 10px rgb(197, 197, 197);
 }
+
 .display {
     padding: 5px;
     border: 2px solid rgb(182, 182, 182);
@@ -78,6 +85,7 @@
 textarea {
     resize: none;
 }
+
 .led {
     width: 10px;
     height: 10px;
@@ -91,15 +99,17 @@ textarea {
     transition-duration: 0.6s;
     transition-delay: initial;
 }
+
 .light {
     border: 1px solid rgb(50, 66, 55);
     background-color: rgb(74, 255, 74);
     box-shadow: 3px 3px 18px rgb(110, 255, 110);
 }
+
 .red {
     color: white;
     border: 1px solid rgb(255, 93, 93);
     border-radius: 50%;
     background-color: rgb(255, 94, 94);
-    
+
 }
