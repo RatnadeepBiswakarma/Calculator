@@ -1,3 +1,3 @@
 # Calculator
 
-https://ratnadeepbiswakarma.github.io/Calculator/
+Check live here https://calculator-by-ratnadeep.netlify.app/
